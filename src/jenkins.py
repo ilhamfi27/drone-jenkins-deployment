@@ -61,4 +61,4 @@ def build_job():
         f"/job/{jenkins_job[0]}/job/{jenkins_job[1]}/{latest_build}/input/{conf['deployment']['input_id']}/submit?proceed=Proceed",
         data=payload
     )
-    print(f'resume deploy: {conf["jenkins_job"]} for ${conf["deployment"]["service_name"]} to ${conf["deployment"]["stage"]} - done')
+    print(f'resume deploy: {conf["jenkins_job"]} for {conf["deployment"]["service_name"]} to {conf["deployment"]["stage"]} - done')

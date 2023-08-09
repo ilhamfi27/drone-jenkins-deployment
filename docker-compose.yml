@@ -1,0 +1,4 @@
+version: '3.9'
+services:
+  drone_jenkins:
+    image: ilhamfadhilah/drone-jenkins-deployment:v1.0.0
